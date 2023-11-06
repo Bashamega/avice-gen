@@ -1,7 +1,7 @@
 import './master.sass'
 const isMobile = window.innerWidth < 768;
 if(isMobile){
-  document.getElementById('divider').src ="public/images/pattern-divider-mobile.svg"
+  document.getElementById('mobile-divider').classList.add('show')
 }else{
-  document.getElementById('divider').src ="public/images/pattern-divider-desktop.svg"
+  document.getElementById('desktop-divider').classList.add('show')
 }
